@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Add jest config" />
+    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,19 +49,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.sum.test.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="sum.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/__test__/sum.test.js" working-dir="$PROJECT_DIR$/src/__test__">
+      <method v="2" />
     </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -73,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.sum.test.js" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
@@ -86,7 +90,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616365613719</updated>
       <workItem from="1616365614733" duration="608000" />
-      <workItem from="1616366232292" duration="617000" />
+      <workItem from="1616366232292" duration="841000" />
+      <workItem from="1616367084005" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Add new idea project files">
       <created>1616366317892</created>
@@ -144,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616366775454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add jest config and dummy test">
+      <created>1616367062999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616367062999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +172,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new idea project files" />
@@ -169,13 +182,30 @@
     <MESSAGE value="Add jest library" />
     <MESSAGE value="Change idea config" />
     <MESSAGE value="Add jest config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jest config" />
+    <MESSAGE value="Add jest config and dummy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add jest config and dummy test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1616365617532">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1616365617532" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1616367247687">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247687" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1616367247684">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247684" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1616367247682">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247682" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1616367247686">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247686" />
     <state x="305" y="280" width="1372" height="554" key="new project wizard" timestamp="1616365633830">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
