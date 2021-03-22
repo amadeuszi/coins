@@ -1,4 +1,4 @@
-import { calculateRolls } from "../calculateRolls";
+import {calculateRolls, CountedRollsResult} from "../calculateRolls";
 import { SampleInput } from "./sampleInput";
 import { GlobalRollsConfig } from "../util/RollsConfig";
 import { CountedRoll } from "../model/CountedRollModel";
@@ -8,7 +8,7 @@ describe('calculateRolls', () => {
         const input = SampleInput;
         const result = calculateRolls(input, GlobalRollsConfig);
 
-        const expectedResult: Record<number, CountedRoll> = {
+        const expectedResult: CountedRollsResult = {
             '1': { rolls: 40, rest: 34 },
             '2': { rolls: 40, rest: 10 },
             '5': { rolls: 55, rest: 13 },
@@ -25,7 +25,7 @@ describe('calculateRolls', () => {
         const input = [1];
         const result = calculateRolls(input, GlobalRollsConfig);
 
-        const expectedResult: Record<number, CountedRoll> = {
+        const expectedResult: CountedRollsResult = {
             '1': { rolls: 0, rest: 1 },
             '2': { rolls: 0, rest: 0 },
             '5': { rolls: 0, rest: 0 },
@@ -41,7 +41,7 @@ describe('calculateRolls', () => {
         const input: Array<number> = [];
         const result = calculateRolls(input, GlobalRollsConfig);
 
-        const expectedResult: Record<number, CountedRoll> = {
+        const expectedResult: CountedRollsResult = {
             '1': { rolls: 0, rest: 0 },
             '2': { rolls: 0, rest: 0 },
             '5': { rolls: 0, rest: 0 },
