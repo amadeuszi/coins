@@ -2,7 +2,6 @@
   "name": "coins",
   "version": "0.1.0",
   "description": "Coin Jar management. Calculations and stuff",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +23,4 @@
     ],
     "testRegex": "^.+\\.test\\.ts$"
   }
-
 }
