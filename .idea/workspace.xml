@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Update gitignore - ignore compiled js files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/sum.test.ts" beforeDir="false" />
-    </list>
+    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Delete dummy test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +91,7 @@
       <workItem from="1616365614733" duration="608000" />
       <workItem from="1616366232292" duration="841000" />
       <workItem from="1616367084005" duration="5540000" />
-      <workItem from="1616372629935" duration="132000" />
+      <workItem from="1616372629935" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="Add new idea project files">
       <created>1616366317892</created>
@@ -181,7 +177,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616367603582</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update idea config">
+      <created>1616372921162</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616372921162</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update gitignore">
+      <created>1616372933019</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616372933019</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Delete dummy test">
+      <created>1616372941212</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616372941212</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,10 +225,12 @@
     <MESSAGE value="Change idea config" />
     <MESSAGE value="Add jest config" />
     <MESSAGE value="Add jest config and dummy test" />
-    <MESSAGE value="Update gitignore" />
     <MESSAGE value="Update config" />
     <MESSAGE value="Update gitignore - ignore compiled js files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore - ignore compiled js files" />
+    <MESSAGE value="Update idea config" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Delete dummy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete dummy test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1616365617532">
