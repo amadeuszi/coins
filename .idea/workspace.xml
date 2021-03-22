@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Add main calculateRolls function">
-      <change beforePath="$PROJECT_DIR$/src/sum.ts" beforeDir="false" />
+    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Delete unused main script from package.json">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.sum.test.js">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sum.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/__test__/sum.test.js" working-dir="$PROJECT_DIR$/src/__test__">
       <method v="2" />
     </configuration>
@@ -94,7 +105,7 @@
       <workItem from="1616366232292" duration="841000" />
       <workItem from="1616367084005" duration="5540000" />
       <workItem from="1616372629935" duration="324000" />
-      <workItem from="1616372964306" duration="327000" />
+      <workItem from="1616372964306" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="Add new idea project files">
       <created>1616366317892</created>
@@ -278,7 +289,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616373263306</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Delete dummy function">
+      <created>1616373304725</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616373304725</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update of idea config">
+      <created>1616373312041</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1616373312041</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Delete unused main script from package.json">
+      <created>1616373438508</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616373438508</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +350,10 @@
     <MESSAGE value="Add tests" />
     <MESSAGE value="Add input validation" />
     <MESSAGE value="Add main calculateRolls function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add main calculateRolls function" />
+    <MESSAGE value="Delete dummy function" />
+    <MESSAGE value="Update of idea config" />
+    <MESSAGE value="Delete unused main script from package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete unused main script from package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1616365617532">
@@ -353,5 +388,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="305" y="280" width="1372" height="554" key="new project wizard/72.27.1848.1053@72.27.1848.1053" timestamp="1616365633830" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1616373213962">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1616373213962" />
   </component>
 </project>
