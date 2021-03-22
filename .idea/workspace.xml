@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="">
+    <list default="true" id="a625aa56-f5db-4dfb-a1fb-aa0431d9ff47" name="Default Changelist" comment="Update gitignore - ignore compiled js files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__test__/sum.test.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +45,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/coinCalculator/__test__" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.sum.test.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sum.test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/__test__/sum.test.js" working-dir="$PROJECT_DIR$/src/__test__">
       <method v="2" />
     </configuration>
@@ -91,7 +94,8 @@
       <updated>1616365613719</updated>
       <workItem from="1616365614733" duration="608000" />
       <workItem from="1616366232292" duration="841000" />
-      <workItem from="1616367084005" duration="363000" />
+      <workItem from="1616367084005" duration="5540000" />
+      <workItem from="1616372629935" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="Add new idea project files">
       <created>1616366317892</created>
@@ -156,7 +160,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616367062999</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update gitignore">
+      <created>1616367560748</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616367560748</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update config">
+      <created>1616367574443</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616367574443</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update gitignore - ignore compiled js files">
+      <created>1616367603582</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616367603582</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,29 +208,40 @@
     <MESSAGE value="Change idea config" />
     <MESSAGE value="Add jest config" />
     <MESSAGE value="Add jest config and dummy test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jest config and dummy test" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Update config" />
+    <MESSAGE value="Update gitignore - ignore compiled js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore - ignore compiled js files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1616365617532">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1616365617532" />
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1616367247687">
+    <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl" timestamp="1616372288517">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247687" />
-    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1616367247684">
+    <state x="618" y="300" width="735" height="520" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1616372288517" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom" timestamp="1616372625734">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247684" />
-    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1616367247682">
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1616372625734" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center" timestamp="1616372625732">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247682" />
-    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1616367247686">
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1616372625732" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left" timestamp="1616372625731">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1616367247686" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1616372625731" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right" timestamp="1616372625733">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1616372625733" />
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1616372303977">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1616372303977" />
     <state x="305" y="280" width="1372" height="554" key="new project wizard" timestamp="1616365633830">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
